@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.tieude1{
+    font-family: 'Roboto', sans-serif;
+}
+.tieudegioithieu{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#carasel_top div#carouselExampleIndicators div.carousel-inner{
+    text-align: center !important;
+    display: block;
+}
+
+.logo_footer{
+    width: 100px;
+    height: 100px;
+    top: -10px !important;
+}
+header div#hv_header{
+    font-size: 13px !important;
+    font-weight: 900 !important;
+}
+#header{
+    background-color: #95afc0;
+}
+.logo_header{
+    Object-fit : cover;
+    width: 65px;
+    height: 65px;
+    left: 0 !important;
+}
+#header button{
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+.thongdiep{
+    height: 300px;
+    overflow: auto !important;
+    text-align: left !important;
+}
+#thongdiep{
+    text-align: justify !important;
+}
+.nav_top{
+    position: fixed;
+    top:0px;
+    background-color: white !important;
+    z-index: 100;
+    width: 100%;
+    color: white !important;
+}
+.nav_top nav{
+    color: white !important;
+    z-index: 101 !important;
+}
+#btn_top li{
+    font-size: 10px !important;
+}
+#btn_top :hover{
+    color: white !important;
+    /* font-size: 17px; */
+}
+#aa li{
+    margin: 1px;
+    font-size: 8px !important;
+}
+#dangky_top{
+    top: -15px !important;
+}
+.top_click{
+    right: 0px;
+    top: 18px;
+    position: absolute;
+    border: 1px solid #28a745 !important;
+    border-radius: 10px;
+    z-index: 120;
+    padding: 10px;
+    text-decoration: none;
+}
+.top_click :hover{
+    text-decoration: none;
+    font-size: 17px;
+}
+.btn-get-started:hover{
+    text-decoration: none;
+}
+.canchinh_dnb{
+    text-align: justify;
+}
+.icon-box{
+    cursor: pointer;
+}
+#pointer_ctdt{
+    cursor: pointer;
+}
+#clients{
+    cursor: pointer;
+}
+
+@media all and (min-width: 414px) and (max-width: 736px){
+    
+}
+
+
+@media all and (max-width: 480px){
+    .tieude1{
+        font-size: 23px !important;
+    }
+    #about div.section-title h2{
+        font-size: 18px !important;
+    }
+	#pricing div.section-title h2{
+        font-size: 18px;
+    }
+    #services div.section-title h2{
+        font-size: 18px !important;
+    }
+    #faq div.section-title h2{
+        font-size: 18px !important;
+    }
+    #team div.section-title h2{
+        font-size: 18px !important;
+    }
+    #counts div.section-title h2{
+        font-size: 18px !important;
+    }
+    #features div.section-title h2{
+        font-size: 18px !important;
+    }
+    #portfolio div.section-title h2{
+        font-size: 18px !important;
+    }
+    /* #testimonials div.section-title h2{
+        font-size: 11px !important;
+    }	 */
+    #contact div.section-title h2{
+        font-size: 18px !important;
+    }	
+}
+@media all and (max-width: 576px){
+    #hero{
+        text-align: center;
+    }
+    #about div.section-title h2{
+        font-size: 20px;
+    }
+	#pricing div.section-title h2{
+        font-size: 20px;
+    }
+    #services div.section-title h2{
+        font-size: 20px;
+    }
+    #faq div.section-title h2{
+        font-size: 20px ;
+    }
+    #team div.section-title h2{
+        font-size: 20px ;
+    }
+    #counts div.section-title h2{
+        font-size: 20px;
+    }
+    #features div.section-title h2{
+        font-size: 20px;
+    }
+    #portfolio div.section-title h2{
+        font-size: 20px;
+    }
+    /* #testimonials div.section-title h2{
+        font-size: 20px ;
+    }	 */
+    #contact div.section-title h2{
+        font-size: 20px ;
+    }	
+    #contact div.row div.footer_fanpage{
+        text-align: center !important;
+    }
+    .logo_header{
+        visibility: hidden;
+    }
+}
+
+@media all and (max-width: 768px){	
+    #hero{
+        text-align: center;
+    }
+    #about div.section-title h2{
+        font-size: 25px;
+    }
+    #counts div.section-title h2{
+        font-size: 25px;
+    }
+	#pricing div.section-title h2{
+        font-size: 25px;
+    }
+    #services div.section-title h2{
+        font-size: 25px;
+    }
+    #faq div.section-title h2{
+        font-size: 25px;
+    }
+    #team div.section-title h2{
+        font-size: 25px;
+    }
+    #features div.section-title h2{
+        font-size: 25px;
+    }
+    #portfolio div.section-title h2{
+        font-size: 25px;
+    }
+    /* #testimonials div.section-title h2{
+        font-size: 25px;
+    }	 */
+    #contact div.section-title h2{
+        font-size: 25px;
+    }
+    #contact div.row div.footer_fanpage{
+        text-align: center !important;
+    }	
+    .logo_header{
+        visibility: hidden;
+    }
+}
+
+@media all and (max-width: 992px){
+    #pricing div.section-title h2{
+        font-size: 25px;
+    }
+    #services div.section-title h2{
+        font-size: 25px;
+    }
+    #faq div.section-title h2{
+        font-size: 25px;
+    }
+    #team div.section-title h2{
+        font-size: 25px;
+    }
+    #about div.section-title h2{
+        font-size: 25px;
+    }
+    #counts div.section-title h2{
+        font-size: 25px;
+    }
+    #features div.section-title h2{
+        font-size: 25px;
+    }
+    #portfolio div.section-title h2{
+        font-size: 25px;
+    }
+    /* #testimonials div.section-title h2{
+        font-size:15px;
+    }	 */
+    #contact div.section-title h2{
+        font-size: 25px;
+    }
+	#hero{
+        text-align: center;
+    }
+    .logo_header{
+        visibility: hidden;
+    }
+}
+
+@media all and (min-width: 993px){
+    .tieude1{
+        font-size: 45px !important;
+    }
+}
