@@ -141,8 +141,8 @@
     time: 1000
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
+  // giaovien carousel (uses the Owl Carousel library)
+  $(".giaovien-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
@@ -167,16 +167,16 @@
 
   // Porfolio isotope and filter
   $(window).on('load', function() {
-    var portfolioIsotope = $('.portfolio-container').isotope({
-      itemSelector: '.portfolio-item',
+    var hoatdongIsotope = $('.hoatdong-container').isotope({
+      itemSelector: '.hoatdong-item',
       layoutMode: 'fitRows'
     });
 
-    $('#portfolio-flters li').on('click', function() {
-      $("#portfolio-flters li").removeClass('filter-active');
+    $('#hoatdong-flters li').on('click', function() {
+      $("#hoatdong-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
-      portfolioIsotope.isotope({
+      hoatdongIsotope.isotope({
         filter: $(this).data('filter')
       });
     });
@@ -187,8 +187,8 @@
     });
   });
 
-  // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
+  // hoatdong details carousel
+  $(".hoatdong-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,

@@ -115,10 +115,10 @@ header div#hv_header{
     #about div.section-title h2{
         font-size: 18px !important;
     }
-	#pricing div.section-title h2{
+	#gioithieu div.section-title h2{
         font-size: 18px;
     }
-    #services div.section-title h2{
+    #chuongtrinhdaotao div.section-title h2{
         font-size: 18px !important;
     }
     #faq div.section-title h2{
@@ -133,10 +133,10 @@ header div#hv_header{
     #features div.section-title h2{
         font-size: 18px !important;
     }
-    #portfolio div.section-title h2{
+    #hoatdong div.section-title h2{
         font-size: 18px !important;
     }
-    /* #testimonials div.section-title h2{
+    /* #giaovien div.section-title h2{
         font-size: 11px !important;
     }	 */
     #contact div.section-title h2{
@@ -150,10 +150,10 @@ header div#hv_header{
     #about div.section-title h2{
         font-size: 20px;
     }
-	#pricing div.section-title h2{
+	#gioithieu div.section-title h2{
         font-size: 20px;
     }
-    #services div.section-title h2{
+    #chuongtrinhdaotao div.section-title h2{
         font-size: 20px;
     }
     #faq div.section-title h2{
@@ -168,10 +168,10 @@ header div#hv_header{
     #features div.section-title h2{
         font-size: 20px;
     }
-    #portfolio div.section-title h2{
+    #hoatdong div.section-title h2{
         font-size: 20px;
     }
-    /* #testimonials div.section-title h2{
+    /* #giaovien div.section-title h2{
         font-size: 20px ;
     }	 */
     #contact div.section-title h2{
@@ -195,10 +195,10 @@ header div#hv_header{
     #counts div.section-title h2{
         font-size: 25px;
     }
-	#pricing div.section-title h2{
+	#gioithieu div.section-title h2{
         font-size: 25px;
     }
-    #services div.section-title h2{
+    #chuongtrinhdaotao div.section-title h2{
         font-size: 25px;
     }
     #faq div.section-title h2{
@@ -210,10 +210,10 @@ header div#hv_header{
     #features div.section-title h2{
         font-size: 25px;
     }
-    #portfolio div.section-title h2{
+    #hoatdong div.section-title h2{
         font-size: 25px;
     }
-    /* #testimonials div.section-title h2{
+    /* #giaovien div.section-title h2{
         font-size: 25px;
     }	 */
     #contact div.section-title h2{
@@ -228,10 +228,10 @@ header div#hv_header{
 }
 
 @media all and (max-width: 992px){
-    #pricing div.section-title h2{
+    #gioithieu div.section-title h2{
         font-size: 25px;
     }
-    #services div.section-title h2{
+    #chuongtrinhdaotao div.section-title h2{
         font-size: 25px;
     }
     #faq div.section-title h2{
@@ -249,10 +249,10 @@ header div#hv_header{
     #features div.section-title h2{
         font-size: 25px;
     }
-    #portfolio div.section-title h2{
+    #hoatdong div.section-title h2{
         font-size: 25px;
     }
-    /* #testimonials div.section-title h2{
+    /* #giaovien div.section-title h2{
         font-size:15px;
     }	 */
     #contact div.section-title h2{
